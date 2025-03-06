@@ -1,0 +1,55 @@
+{
+    "telegram": {
+        "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+        "forum_chat_id": "идентификатор конференции",
+        "forum_topic_id": "идентификатор топика",
+        "admin_chat_id": "идентификатор администратора"
+    },
+    "google": {
+        "service_account_file": "path/to/your/service_account.json",
+        "ik_1_3": {
+            "ik": "your_google_sheet_id_1_3",
+            "worksheet": "your_worksheet_name_1_3",
+            "shipments": "your_shipments_sheet_id_1_3"
+        },
+        "ik_2_4": {
+            "ik": "your_google_sheet_id_2_4",
+            "worksheet": "your_worksheet_name_2_4",
+            "shipments": "your_shipments_sheet_id_2_4"
+        }
+    },
+    "projects": {
+        "p_1_3": {
+            "project1": {
+                "head": {
+                    "Client-Id": "your_client_id_1",
+                    "Api-Key": "your_api_key_1"
+                },
+                "project": "project1"
+            },
+            "project3": {
+                "head": {
+                    "Client-Id": "your_client_id_3",
+                    "Api-Key": "your_api_key_3"
+                },
+                "project": "project3"
+            }
+        },
+        "p_2_4": {
+            "project2": {
+                "head": {
+                    "Client-Id": "your_client_id_2",
+                    "Api-Key": "your_api_key_2"
+                },
+                "project": "project2"
+            },
+            "project4": {
+                "head": {
+                    "Client-Id": "your_client_id_4",
+                    "Api-Key": "your_api_key_4"
+                },
+                "project": "project4"
+            }
+        }
+    }
+}
